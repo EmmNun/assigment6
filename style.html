@@ -148,36 +148,17 @@ body {
         margin: 10px 0;
     }
 
-
-/* ======= DARK MODE ======= */
-.dark-mode {
-    background-color: black;
-    color: white;
-}
-
-/* Ajustes para elementos específicos no modo escuro */
-.dark-mode .header {
-    background-color: #333;
-}
-
-.dark-mode .header-nav a {
-    color: white;
-}
-
-.dark-mode .main-content {
-    background-color: #222;
-}
-
-.dark-mode .sidebar {
-    background-color: #444;
-}
-
-.dark-mode .footer {
-    background-color: #333;
-}
-
-/* Estiliza o botão no modo escuro */
-.dark-mode button {
-    background-color: white;
-    color: black;
-}
+    /* Default light mode styles */
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: white;
+        color: black;
+        transition: background-color 0.5s, color 0.5s;
+    }
+    
+    /* Dark mode styles (will be applied via JavaScript) */
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
