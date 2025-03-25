@@ -7,7 +7,8 @@ window.onload = function () {
 };
 
 // Function to toggle between light mode and dark mode
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-  }
+    function changeTheme() {
+        document.body.classList.toggle("dark-mode");
+    }
+    
+     
